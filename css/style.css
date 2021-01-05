@@ -1,0 +1,338 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+a{
+  text-decoration: none;
+}
+
+/* Header/Navbar Section is Starting Here */
+
+.header{
+  background-color: black;
+  text-align: center;
+}
+
+.header ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px 10px;
+  margin: 0 10px;
+}
+/* .header ul li:hover{
+  background-color: crimson;
+} */
+
+.header ul li a{
+  color: #afa09b;
+  text-transform: uppercase;
+  /* font-family: 'Poppins', sans-serif; */
+}
+.header ul li a:hover{
+  /* font-family: 'Poppins', sans-serif; */
+  color: aliceblue;
+  transition: 0.3s ease-in-out;
+}
+
+/* Header/Navbar Section is End Here */
+
+/* Newsletter Section is Start Here */
+
+.newsletter{
+  background-color: #f5f5f5;
+  padding: 60px 60px;
+  text-align: center;
+}
+
+.container{
+  width: 900px;
+  background-color: #f5f5f5;
+  margin: auto;
+}
+.newsletter h2{
+  font-size: 52px;
+  font-family: 'Roboto', sans-serif;
+  color: #2f323a;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.newsletter p{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+.newsletter input{
+  width: 35%;
+  padding: 15px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: 1px solid #b3b3b3;
+}
+
+.email{
+  width: 35%;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: 1px solid #eeeeee;
+}
+
+.newsletter .submit{
+  width: 15%;
+  padding: 15px;
+  font-size: 16px;
+  background: #000000;
+  color: white;
+  border: none;
+  border: 1px solid #000000;
+}
+.submit:hover{
+  background-color: #3a322f;
+  border: 1px solid #3a322f;
+  transition: 0.3s ease-in-out;
+}
+
+/* Newsletter Section is End Here */
+
+/* Talk Style Start Here */
+
+.talk{
+  background-color: #eeeeee;
+  padding: 60px 60px;
+  text-align: center;
+}
+
+.talk .container{
+  background-color: #eeeeee;
+  margin: auto;
+}
+
+.talk h2{
+  font-size: 52px;
+  font-family: 'Roboto', sans-serif;
+  color: #2f323a;
+  background-color: #eeeeee;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.talk p{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #eeeeee;
+  margin-bottom: 20px;
+}
+
+.talk div input{
+  width: 40%;
+  padding: 15px 15px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: 1px solid #b3b3b3;
+}
+
+/* .talk div .email{
+  width: 40%;
+  padding: 15px 15px;
+  margin: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+} */
+
+.talk div .txtarea{
+  width: 86%;
+  padding: 15px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: 1px solid #b3b3b3;
+}
+
+.talk .btn{
+  width: 862.39px;
+  margin: auto;
+}
+
+.talk .btn .msg{
+  width: 150px;
+  padding: 15px;
+  margin: auto 28px;
+  font-size: 16px;
+  background: #000000;
+  color: white;
+  border: none;
+  border: 1px solid #000000;
+  float: left;
+}
+
+.talk .btn .msg:hover{
+  background-color: #3a322f;
+  border: 1px solid #3a322f;
+  transition: 0.3s ease-in-out;
+}
+
+
+/* Talk Style End Here */
+
+/* Footer Section Start Here */
+
+.footer{
+  background-color: #000000;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.footer .container{
+  background-color: #000000;
+  width: 1140px;
+}
+
+.footer .top{
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px 0 5px;
+}
+
+
+.footer .top .col h6{
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.footer .top .col .menu ul{
+  list-style-type: none;
+}
+
+.footer .top .col .menu ul li{
+  color: #cecece;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .container hr{
+  border: 1px solid #3f3838;
+  /* height: 1px; */
+  margin: 40px 0;
+}
+
+.footer .bottom{
+  background-color: #000000;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.footer .bottom ul{
+  list-style-type: none;
+  color: #eeeeee;
+}
+
+.footer .bottom ul li{
+  color: #eeeeee;
+  display: inline-block;
+  padding: 0 10px 0 0;
+  margin: 0 10px 0 0;
+  border-right: 1px solid #3f3838;
+}
+
+.footer .bottom ul li a{
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+.footer .bottom ul li a:hover{
+  color: #b3b3b3;
+}
+
+.last-list{
+  border-right: none !important;
+}
+
+
+/* Social Media Section Start */
+
+.social ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 20px 0 0;
+}
+
+.social ul li a i{
+  color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* .social ul li a i:hover{
+  color: crimson;
+  border: 1px solid crimson;
+  transition: 0.3s ease-in-out;
+} */
+
+.social ul li a .face:hover{
+  color: white;
+  background-color: #3a559f;
+  border: 1px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+.social ul li a .insta:hover{
+  color: white;
+  background-image: linear-gradient(to left bottom, #3194ab, #f52f68, #f5ab49);
+  border: 1px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+.social ul li a .utube:hover{
+  color:white;
+  background-color: #f70000;
+  border: 1px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+.social ul li a .linked:hover{
+  color: white;
+  background-color: #0073b1;
+  border: 1px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+.social ul li a .whatsup:hover{
+  color: white;
+  background-color: #46c254;
+  border: 1px solid white;
+  transition: 0.3s ease-in-out;
+}
+
+.social ul li a .mail:hover{
+  color: #e94134;
+  background-color: white;
+  border: 1px solid #e94134;
+  transition: 0.3s ease-in-out;
+}
+
+/* Social Media Section End */
+
+
+/* Footer Section End Here */
